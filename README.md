@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: pr-rating-action/clarity@v1
+    - uses: rate-my-pr/clarity@v1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LLAMA_URL: ${{ secrets.LLAMA_URL }}
